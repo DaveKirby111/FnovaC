@@ -1,0 +1,85 @@
+/*
+
+1. HEADER
+2. NAV
+3. CONTENT
+4. FOOTER
+
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    background-image: url("../images/Valhalla_02.jpg");
+    background-size: 100% auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 150px;
+    width: 350px;
+}
+
+/* NAV */
+
+nav {
+    background-image: url("../images/fnc-bg3.jpeg");
+}
+
+nav ul{
+
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+
+    display: block;
+    padding: 15px;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 2px 2px 2px pink;
+}
+
+/* CONTENT */
+
+main {
+    flex: 1;
+
+    background-image: linear-gradient(lightblue, white, lightblue);
+}
+
+.content {
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    background-image: url("../images/Valhalla_03.jpeg");
+    background-size: 100% auto;
+    padding: 30px;
+}
