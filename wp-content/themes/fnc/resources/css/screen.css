@@ -67,13 +67,50 @@ main {
 }
 
 .content {
-    padding: 30px;
+   padding: 30px;
+   margin-left: 150px;
+   margin-right: 150px;
 }
 
 h1 {
     text-align: center;
     text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
     font-size: 30px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.fnc-games th {
+    font-size: 20px;
+}
+
+.fnc-games th {
+    background-color: lightgray;
+}
+
+.fnc-games td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fnc-games tr:nth-child(odd) {
+    background-color: white;
+}
+
+.fnc-games tr:nth-child(even) {
+    background-color: lightgray;
 }
 
 /* FOOTER */

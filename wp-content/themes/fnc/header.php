@@ -7,8 +7,8 @@
 
     <title>Fabula Nova Crystallis</title>
 
-    <!-- <link rel="stylesheet" href="resources/css/reset.css">
-    <link rel="stylesheet" href="resources/css/screen.css"> -->
+    <link rel="stylesheet" href="/wp-content/themes/fnc/resources/css/reset.css">
+    <link rel="stylesheet" href="/wp-content/themes/fnc/resources/css/screen.css">
 </head>
 <body <?php body_class(); ?>>
 
